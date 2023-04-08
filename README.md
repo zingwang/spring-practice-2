@@ -16,7 +16,7 @@
 - 라이브러리 직접 선택 시 문제 : 호환이 잘되는지 확인이 필요
 - 스프링 부트 라이브러리 버전관리 : dependency-management 로 버전관리
 
-### 스프링 부트 스타터 스프링 부트 스타터 - 자주 사용하는 것 위주
+#### 스프링 부트 스타터 스프링 부트 스타터 - 자주 사용하는 것 위주
 >  spring-boot-starter : 핵심 스타터, 자동 구성, 로깅, YAML <br>
 >  spring-boot-starter-jdbc : JDBC, HikariCP 커넥션풀 <br>
 >  spring-boot-starter-data-jpa : 스프링 데이터 JPA, 하이버네이트 <br>
