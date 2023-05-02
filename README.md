@@ -56,6 +56,8 @@ ext['tomcat.version'] = '10.1.4'
 
 - 유지보수하기 좋은 애플리케이션 개발의 가장 기본원칙 "변하는 것과 변하지 않는 것을 분리"
 - OS환경설정 / 자바 시스템 속성 / 자바 커맨드 라인 인수 / 외부 파일
-
 - 외부설정 - 스프링통합 PropertySoruc: 커맨드 라인 옵션인수 / 자바 시스템 속성 / OS환경변수 / 설정데이터(파일)
 
+- 외부설정: @Value, @ConfigurationProperties(묶음), @Validated(검증기) 
+- YAML: 실무에서는 applications.yml 을 주로 사용
+- @Profile: 각 환경마다 다른 Bean을 등록
