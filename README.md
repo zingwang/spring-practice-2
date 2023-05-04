@@ -61,3 +61,6 @@ ext['tomcat.version'] = '10.1.4'
 - 외부설정: @Value, @ConfigurationProperties(묶음), @Validated(검증기) 
 - YAML: 실무에서는 applications.yml 을 주로 사용
 - @Profile: 각 환경마다 다른 Bean을 등록
+
+#### 액츄에이터
+- 프로덕션을 운영에 배포할 때 준비해야 하는 비 기능적인 요소들: 지표(metric), 추적(trace), 감사(auditing)
