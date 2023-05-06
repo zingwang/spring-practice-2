@@ -1,4 +1,11 @@
 management:
+  info:
+    java:
+      enabled: ture
+    os:
+      enabled: true
+    env:
+      enabled: true
   endpoint:
     shutdown:
       enabled: true
