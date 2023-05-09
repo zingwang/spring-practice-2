@@ -14,7 +14,7 @@ public class ActuatorApplication {
 
     @Bean
     public InMemoryHttpExchangeRepository httpExchangeRepository(){
-        retur new InMemoryHttpExchangeRepository();
+        return new InMemoryHttpExchangeRepository();
     }
 
 }
