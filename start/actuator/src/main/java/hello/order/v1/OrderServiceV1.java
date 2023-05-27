@@ -30,7 +30,7 @@ public class OrderServiceV1 implements OrderService {
     }
 
     @Override
-    public AtomicInteger getStorck() {
+    public AtomicInteger getStock() {
         return stock;
     }
 }
