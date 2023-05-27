@@ -38,7 +38,7 @@ public class OrderServiceV4 implements OrderService {
 
 
     @Override
-    public AtomicInteger getStorck() {
+    public AtomicInteger getStock() {
         return stock;
     }
 }
